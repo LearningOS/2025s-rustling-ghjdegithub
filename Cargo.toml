@@ -3,8 +3,8 @@ name = "rustlings"
 description = "Small exercises to get you used to reading and writing Rust code!"
 version = "5.5.1"
 authors = [
-  "Liv <mokou@fastmail.com>",
-  "Carol (Nichols || Goulding) <carol.nichols@gmail.com>",
+    "Liv <mokou@fastmail.com>",
+    "Carol (Nichols || Goulding) <carol.nichols@gmail.com>",
 ]
 edition = "2021"
 
@@ -20,6 +20,9 @@ serde_json = "1.0.81"
 home = "0.5.3"
 glob = "0.3.0"
 tokio = { version = "1.21.2", features = ["full"] }
+
+[lib]
+path = "exercises/lib.rs"
 
 [[bin]]
 name = "rustlings"
